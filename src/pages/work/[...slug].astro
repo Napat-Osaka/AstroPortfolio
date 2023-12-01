@@ -44,8 +44,22 @@ const { Content } = await entry.render();
 				</div>
 			</header>
 			<main class="wrapper">
-				<div class="stack gap-10 content">
+				<!-- <div class="stack gap-10 content">
 					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
+					<div class="content">
+						<Content />
+					</div>
+				</div> -->
+				<div class="stack gap-10 content">
+					{entry.data.vid ? (
+						<video controls><source src={entry.data.vid} type="video/mp4" />
+							Your browser does not support the video tag.
+						</video>
+						) : (
+						entry.data.img && (
+							<img src={entry.data.img} alt={entry.data.img_alt || ''} />
+						)
+					)}
 					<div class="content">
 						<Content />
 					</div>

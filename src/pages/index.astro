@@ -30,22 +30,22 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hello, my name is Napat"
+					tagline="I am a Mechanical Engineer Master Student who is also interested in Software Development and Business."
 					align="start"
 				>
 					<div class="roles">
+						<Pill><Icon icon="gear" size="1.33em" /> Mechanical Engineer</Pill>
 						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="microphone-stage" size="1.33em" /> Student Leader</Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Napat as a minimal black and white cartoon"
 					width="480"
 					height="620"
-					src="/assets/portrait.jpg"
+					src="/assets/cartoon-portrait-2.png"
 				/>
 			</header>
 
@@ -55,8 +55,8 @@ const projects = (await getCollection('work'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<h3>My Work</h3>
+					<p>Take a look below at some of my recent work. There are more to see in the work tap if you are interested !</p>
 				</header>
 
 				<div class="gallery">
@@ -81,19 +81,39 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Awards and Recognitions</h3>
 					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
+						I have been fortunate enough to receive various support and praise for my work throughout the years.
+						Take a look below or click them to learn more.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							[['Thai Government Scholarship', 
+							'As a student of MWIT, full schorlarship from the Thai Government for 3 years',
+							'https://en.wikipedia.org/wiki/Mahidol_Wittayanusorn_School'],
+
+							['MEXT Honor Scholarship', 'With the recommendation of the Embassy, full schorlarship from the Japanese Government for 6 years',
+							'https://www.mext.go.jp/a_menu/koutou/ryugaku/boshu/1330944.htm'],
+
+							['Asahi Glass Research Scholarship', 'Full schorlarship from the Asahi Glass Foundation for 2 years',
+							'https://www.af-info.or.jp/en/scholarship/'],
+
+							['BPA Award, JSME Kansai Branch', 'Student reseach award from The Japan Society of Mechanical Engineers',
+							'https://twitter.com/goto_fmlab/status/1635985701924896768'],
+
+							['Engineering Science Award', 'Graduated first of the course, Osaka University, School of Engineering Science',
+							'https://twitter.com/goto_fmlab/status/1639081370046836738'],
+
+							['Vice President, TSAJ', 
+							"Vice president and board of directory for Thai Students' Association in Japan under the Royal Patronage",
+							'https://tsaj.org/']]
+							.map((item) => (
 								<li class="mention-card">
-									<p>{brand}</p>
+									<a href={item[2]}><p style="color:#7611a6">{item[0]}</p></a>
+									<p>{item[1]}</p>
 								</li>
 							))
 						}
@@ -241,6 +261,7 @@ const projects = (await getCollection('work'))
 		color: var(--gray-300);
 		background: var(--gradient-subtle);
 		box-shadow: var(--shadow-sm);
+		flex-direction: column;
 	}
 
 	@media (min-width: 50em) {
