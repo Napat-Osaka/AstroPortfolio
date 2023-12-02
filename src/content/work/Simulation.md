@@ -2,7 +2,7 @@
 title: Fluid Simulation
 publishDate: 2020-03-02 00:00:00
 img: /assets/Fluid-1.png
-vid: /assets/video/simulation.mp4
+vid: /assets/video/simulation
 img_alt: Fluid Simulation with LBM Method
 description: |
   Flow and Temperature Simulation, Based on the Immersed Boundary Lattice Bolzman Method (IB-LBM). 
@@ -11,25 +11,9 @@ tags:
   - Python
 ---
 
-## Level-two heading
+### Emulating Nature's Complexity
+As a Millennium problem, the Navier-Stokes Equation poses a formidable challenge, if not an impossibility for analytical solutions. Despite the intricacy, understanding it is pivotal, given our constant interaction with fluids in both engineering applications and daily life. Fortunately, the situation changes significantly when delving into numerical solutions. Leveraging the computational power of modern machines, we can simulate fluid behavior by tracking its evolution over infinitesimally small time incremently, providing us with the capability to predict flows at any desired moment.
+Numerous methods exist for such numerical simulations, and my chosen approach is the Immersed Boundary Lattice Boltzmann Method (IB-LBM). Renowned for its simplicity, proficiency in handling complex geometries, and compatibility with parallel computing.
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
-
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
-
-### Level-three heading
-
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
-
-### Level-three heading
-
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+### The Technology of a Thousand Usages
+Applying simulation results to practical scenarios, our research group has made fascinating discoveries, some even leading to patented industrial machines like the innovative bladeless mixer—designed by my seniors and professors. This stands as an exemple of how fluid simulation technologies transcend theory, with impactful real-world applications ranging from car design to coronavirus prevention. The art of simulation has seamlessly woven itself into the fabric of modern engineering, proving integral in shaping innovative solutions across diverse fields.
