@@ -1,5 +1,5 @@
 ---
-title: GPU Accelerated
+title: GPU Accelerated *
 publishDate: 2019-10-02 00:00:00
 img: /assets/Gpu.png
 vid: /assets/video/gpu

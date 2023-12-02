@@ -3,6 +3,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import TimeLine from '../components/TimeLine.astro';
+import TimeLineCard from '../components/TimeLineCard.astro';
 ---
 
 <BaseLayout title="About | Napat Lilittrakul" description="About Napat Lilittrakul Background">
@@ -21,45 +23,138 @@ import Hero from '../components/Hero.astro';
 			</Hero>
 
 			<section>
-				<h2 class="section-title">Background</h2>
+				<h2 class="section-title">Self Introduction</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl
-						condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu
-						odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum
-						dui faucibus in ornare.
+						I am an accomplished Mechanical Engineering student at Osaka University, originally from Thailand but with nearly 8 years of continuous international study experience. This extensive journey has provided me with the invaluable opportunity to engage with diverse individuals from various backgrounds, shaping me into a global-minded, outgoing, and, most importantly, an intensely curious individual.
 					</p>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						Of all my characteristic traits, fearlessness and determination stand out as my guiding principles. While my skills may yet be insufficient, and the future of our dynamic world remains uncertain, it is precisely this uncertainty that fuels my determination to learn and grow. Armed with the same fearlessness and determination that propelled me oversea, I have again and again shown my commitment to continual learning, pushing my boundaries into unfamiliar fields ranging from software development to sustainable business. 
 					</p>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						With a relentless commitment to self-improvement, a penchant for challenging limits, and a proven track record of thriving in diverse and changing environments, I am eager to contribute my skills and determination to the goal of your organization.
 					</p>
 				</div>
 			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
-				</div>
-			</section>
+			
 			<section>
 				<h2 class="section-title">Languages</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<p>Thai (Mother Tongue)<br>English (Native Level: TOEFL 111)<br>Japanese (Professional Level: N2)</p>
+				</div>
+			</section>
+
+			<section>
+				<!-- <h2 class="section-title">Education</h2>
+				<div class="content">
+					<p>Corporis voluptates tenetur laudantium.</p>
+				</div> -->
+				<h2 class="section-title">Formal Education</h2>
+				<div class="content">
+					<TimeLine>
+						<TimeLineCard level="Kosen" school="Akashi Kosen" 
+						time="2018-2021 [Graduated]"
+						course="College of Technology, Mechanical Engineering Course"/>
+						<TimeLineCard level="Undergradaute" school="Osaka University" 
+						time="2021-2023 [Graduated]"
+						course="Shcool of Engineering Science, Mechanical Engineering Course"/>
+						<TimeLineCard level="Graduate" school="Osaka University" 
+						time="2023-2025 [Ongoing]"
+						course="Gradaute School of Engineering Science, Division of Non Linear Mechanics"/>
+						<TimeLineCard level="Exchange" school="National University of Singapore" 
+						time="2023 [Ongoing]"
+						course="Semester Exchange with a focus on Business Operation and Modeling"/>
+					</TimeLine>
+				</div>
+			</section>
+
+			<section>
+				<h2 class="section-title">Self Learning</h2>
+				<div class="content">
+					<p>Certificates that I have received from self-studying over the years are listed below. 
+					</p>
+					<p><br></p>
+					<table style="width:80%">
+						<tr>
+						  <th>Institution</th>
+						  <th style="width:70%">Certificate</th> 
+						</tr>
+						<tr>
+						  	<td>Harvard X</td>
+						  	<td><a href="https://courses.edx.org/certificates/ffa90774c76d454bae6eaa8b6b4b4457">
+							CS50's Introduction to Computer Science</a></td> 
+						</tr>
+						<tr>
+						  	<td>IBM</td>
+						  	<td><a href="https://courses.edx.org/certificates/471faee5c2ba47a2898b83d064ddbcc2">
+							CC0101EN: Introduction to Cloud Computing</a></td> 
+						</tr>
+						<tr>
+							<td>IBM</td>
+							<td><a href="https://courses.edx.org/certificates/0a8b781d38cc42a69b2fddcae34eef53">
+							CAD101EN: Introduction to Web Development with HTML5, CSS3, and JavaScript</a></td> 
+						</tr>
+						<tr>
+							<td>IBM</td>
+							<td><a href="https://courses.edx.org/certificates/537ca6fc26734194ae57571c0530b0c5">
+							CAD220EN: Back-end Application Development with Node.js and Express</a></td> 
+						</tr>
+						<tr>
+							<td>IBM</td>
+							<td><a href="https://courses.edx.org/certificates/b6c4a33ddb514d2eaf75d89a666cd581">
+							CAD201EN: Introduction to Cloud Native, DevOps, Agile, and NoSQL</a></td> 
+						</tr>
+						<tr>
+							<td>IBM</td>
+							<td><a href="https://courses.edx.org/certificates/70e33e39333e4bd597a4c5ebc3f36b51">
+							CAD0210EN: Developing Front End Apps with React</a></td> 
+						</tr>
+						<tr>
+							<td>IBM</td>
+							<td><a href="https://courses.edx.org/certificates/6ae68a1a7bee4308a5f7f87333e9e44a">
+							PY0101EN: Python Basics for Data Science</a></td> 
+						</tr>
+						<tr>
+							<td>IBM</td>
+							<td><a href="https://courses.edx.org/certificates/6165a73b5f1e4e03aa3526bff7036228">
+							DA0101EN: Analyzing Data with Python</a></td> 
+						</tr>
+						<tr>
+							<td>IBM</td>
+							<td><a href="https://courses.edx.org/certificates/8a3347e81e0b4fc1844404981f5128d6">
+							DV0101EN: Visualizing Data with Python</a></td> 
+						</tr>
+						<tr>
+							<td>IBM</td>
+							<td><a href="https://courses.edx.org/certificates/ab79c566da5847f7895bd2ead6786139">
+							ML0101EN: Machine Learning with Python: A Practical Introduction</a></td> 
+						</tr>
+						<tr>
+							<td>IBM</td>
+							<td><a href="https://courses.edx.org/certificates/a31935d987de4b03a426424cb0de349a">
+							PY0220EN: Python for Data Science Project</a></td> 
+						</tr>
+						<tr>
+							<td>IBM</td>
+							<td><a href="https://courses.edx.org/certificates/3f393a32583946fd9a6ddd4b0831953c">
+							DS0720EN: Data Science and Machine Learning Capstone Project</a></td> 
+						</tr>
+						<tr>
+							<td>IBM</td>
+							<td><a href="https://credentials.edx.org/credentials/2df8ef7f947e45f39747b1a6bd626c8b/">
+							(Professional Certificate) Cloud and Application Development Foundations</a></td> 
+						</tr>
+						<tr>
+							<td>IBM</td>
+							<td><a href="https://credentials.edx.org/credentials/76a2b1c07b2b48d6a7ed056b354897a6/">
+							(Professional Certificate) Python Data Science</a></td> 
+						</tr>
+						<tr>
+							<td>AWS</td>
+							<td><a href="https://courses.edx.org/certificates/7a51fbe20ce34f20a7bbd6db3a4796f8">
+							AWS-SDK: Integrating AWS with the SDK</a></td> 
+						</tr>
+					</table>
 				</div>
 			</section>
 		</main>
@@ -108,6 +203,14 @@ import Hero from '../components/Hero.astro';
 	.content :global(a:focus) {
 		text-decoration-color: currentColor;
 	}
+
+	table,
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid var(--gray-200);
+        border-collapse: collapse;
+    }
 
 	@media (min-width: 50em) {
 		.about {

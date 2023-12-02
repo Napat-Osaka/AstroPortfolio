@@ -1,5 +1,5 @@
 ---
-title: AI Art
+title: AI Art *
 publishDate: 2019-12-01 00:00:00
 img: /assets/AI-1.jpg
 vid: /assets/video/AI

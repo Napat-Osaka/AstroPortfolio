@@ -24,6 +24,22 @@ While some existing tools can alleviate these challenges, they often demand cumb
 - Ease of Use: Designed to run on supercomputers with minimal IT expertise and uncomplicated environment settings.
 - Efficiency Boost: Giving fluid simulation researchers a powerful tool that streamlines the previously cumbersome visualization process, boosting analysis efficiency.
 
+![alt text](/assets/RayTrace-2.jpg)
+<div align="center">
+  Visualization of Flow Structure at High Re number using tools that are common in the field. S. Goto, Y. Saito, and G. Kawahara, Phys. Rev. Fluids 2, 064603 (2017).
+</div>
+
 ### Chasing the Light
 Based on the Ray Tracing Algorithm that revolutionized the movie industry in the 2000s and has made waves in the video game industry these last few years, I built a simple yet powerful rendering engine from scratch. By simulating the movement of photons and the interaction between them and different materials, the Ray Tracing Algorithm can create a visualization that approaches the realism of authentic photographs. This level of authenticity proves invaluable in the analysis of highly complex simulations, where visual clarity is of paramount importance. 
 Moreover, while we are still working on UI to make the system more user-friendly, our tool is indeed already capable of running on the supercomputer without any major configurations. All done on a highly parallelized algorithm to take advantage of supercomputers' numerous cores (but still run on the CPU for the moment). This project has been praised by researchers in the field and I received a BPA award from the Japanese Society of Mechanical Engineers.
+
+![alt text](/assets/RayTrace-3.jpg)
+<div align="center">
+  Visualization of the same screen using our Ray Tracing tool, the difference in realism is simply striking.
+</div>
+
+![alt text](/assets/RayTrace-4.jpg)
+<div align="center">
+  Side by side comparison of the result of our Ray Tracing tool (Left) and traditional tool (Right). 
+  Simulation data from 阪口智律, Osaka University Goto Lab (2023).
+</div>

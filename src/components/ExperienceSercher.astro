@@ -1,0 +1,75 @@
+<div class="panel">
+    <div class="dropdown">
+        <button>Computer Graphics</button>
+        <div class="dropdown-options">
+            <a href="#">Ray Tracing</a>
+            <a href="#">OpenGL UI</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button>Mechanics</button>
+        <div class="dropdown-options">
+            <a href="#">Fluid Simulation</a>
+            <a href="#">Machine Work</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button>Leadership</button>
+        <div class="dropdown-options">
+            <a href="#">NPO Leadership</a>
+            <a href="#">Sustainability</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button>New Journeys</button>
+        <div class="dropdown-options">
+            <a href="#">GPU Caluculation</a>
+            <a href="#">AI Art</a>
+            <a href="#">XR Technology</a>
+            <a href="#">Web Development</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .panel {
+        font-size: var(--text-lg);
+        font-family: var(--font-body);
+    }
+    .panel button{
+        font-size: var(--text-lg);
+        font-family: var(--font-body);
+        padding: 1.0rem 1.0rem;
+        color: var(--grey-0);
+        border: none;
+        background: none;
+    }
+    .panel button:hover{
+        color: var(--accent-regular);
+    }
+    .dropdown {
+        display: inline-block;
+        position: relative;
+        padding: 1.0rem 0.5rem;
+        width: 12%;
+    }
+    .dropdown-options {
+        display: none;
+        position: absolute;
+        overflow: auto;
+        padding: 0.5rem;
+    }
+    .dropdown-options a {
+        margin-top: 10px;
+        display:inline-block;
+        text-decoration: none;
+        color: var(--grey-0);
+    }
+    .dropdown:hover .dropdown-options {
+        display: block;
+    }
+    .dropdown:hover .dropdown-options a:hover{
+        color: var(--accent-regular);
+        text-decoration: underline;
+    }
+</style>
