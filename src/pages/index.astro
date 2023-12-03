@@ -113,7 +113,7 @@ const projects = indicesToChoose.map(index => allProjects[index])
 							'https://tsaj.org/']]
 							.map((item) => (
 								<li class="mention-card">
-									<a href={item[2]}><p style="color:#7611a6">{item[0]}</p></a>
+									<a href={item[2]}><p style={`color:{var(--accent-light)}`}>{item[0]}</p></a>
 									<p>{item[1]}</p>
 								</li>
 							))
@@ -264,11 +264,17 @@ const projects = indicesToChoose.map(index => allProjects[index])
 		box-shadow: var(--shadow-sm);
 		flex-direction: column;
 	}
+	.mention-card > p {
+		display: none;
+	}
 
 	@media (min-width: 50em) {
 		.mention-card {
 			border-radius: 1.5rem;
 			height: 9.5rem;
+		}
+		.mention-card > p {
+			display: flex;
 		}
 	}
 </style>

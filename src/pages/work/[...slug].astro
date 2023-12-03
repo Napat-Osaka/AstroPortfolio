@@ -8,6 +8,8 @@ import Hero from '../../components/Hero.astro';
 import Icon from '../../components/Icon.astro';
 import Pill from '../../components/Pill.astro';
 
+import { slide } from 'astro:transitions';
+
 interface Props {
 	entry: CollectionEntry<'work'>;
 }
@@ -34,7 +36,7 @@ const { Content } = await entry.render();
 				<div class="wrapper stack gap-2">
 					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
 					<Hero title={entry.data.title} align="start">
-						<div class="details">
+						<div transition:animate={slide({ duration: '0.7s' })} class="details">
 							<div class="tags">
 								{entry.data.tags.map((t) => <Pill>{t}</Pill>)}
 							</div>

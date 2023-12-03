@@ -13,7 +13,7 @@ tags:
   - Python
 ---
 
-A short video made by combining AI-generated images with Blender, resulting in a realistic 3D screen
+A short video I made by combining AI-generated images with Blender, resulting in a realistic 3D screen
 
 ### A Glimpse into the Future
 The realm of AI-generated images has seen remarkable advancements, with the quality of outputs escalating greatly each month. Pioneered by user-friendly services such as Midjourney, AI art is even making significant inroads into the broader public sphere. Motivated by a burgeoning interest in this evolving field, I delved into the domain by familiarizing myself with AI art tools, particularly Midjourney. My initial journey culminated in active participation and a prize-winning performance in a student AI art-themed hackathon hosted at NUS.

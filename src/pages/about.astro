@@ -28,9 +28,11 @@ import TimeLineCard from '../components/TimeLineCard.astro';
 					<p>
 						I am an accomplished Mechanical Engineering student at Osaka University, originally from Thailand but with nearly 8 years of continuous international study experience. This extensive journey has provided me with the invaluable opportunity to engage with diverse individuals from various backgrounds, shaping me into a global-minded, outgoing, and, most importantly, an intensely curious individual.
 					</p>
+					<p><br></p>
 					<p>
 						Of all my characteristic traits, fearlessness and determination stand out as my guiding principles. While my skills may yet be insufficient, and the future of our dynamic world remains uncertain, it is precisely this uncertainty that fuels my determination to learn and grow. Armed with the same fearlessness and determination that propelled me oversea, I have again and again shown my commitment to continual learning, pushing my boundaries into unfamiliar fields ranging from software development to sustainable business. 
 					</p>
+					<p><br></p>
 					<p>
 						With a relentless commitment to self-improvement, a penchant for challenging limits, and a proven track record of thriving in diverse and changing environments, I am eager to contribute my skills and determination to the goal of your organization.
 					</p>
@@ -55,7 +57,7 @@ import TimeLineCard from '../components/TimeLineCard.astro';
 						<TimeLineCard level="Kosen" school="Akashi Kosen" 
 						time="2018-2021 [Graduated]"
 						course="College of Technology, Mechanical Engineering Course"/>
-						<TimeLineCard level="Undergradaute" school="Osaka University" 
+						<TimeLineCard level="Undergraduate" school="Osaka University" 
 						time="2021-2023 [Graduated]"
 						course="Shcool of Engineering Science, Mechanical Engineering Course"/>
 						<TimeLineCard level="Graduate" school="Osaka University" 
@@ -74,10 +76,10 @@ import TimeLineCard from '../components/TimeLineCard.astro';
 					<p>Certificates that I have received from self-studying over the years are listed below. 
 					</p>
 					<p><br></p>
-					<table style="width:80%">
+					<table>
 						<tr>
 						  <th>Institution</th>
-						  <th style="width:70%">Certificate</th> 
+						  <th class="certificate-slot" >Certificate</th> 
 						</tr>
 						<tr>
 						  	<td>Harvard X</td>
@@ -211,6 +213,12 @@ import TimeLineCard from '../components/TimeLineCard.astro';
         border: 1px solid var(--gray-200);
         border-collapse: collapse;
     }
+	table {
+		width: 100%;
+	}
+	.certificate-slot {
+		width: 90%;
+	}
 
 	@media (min-width: 50em) {
 		.about {
@@ -225,6 +233,12 @@ import TimeLineCard from '../components/TimeLineCard.astro';
 		section {
 			display: contents;
 			font-size: var(--text-lg);
+		}
+		table {
+			width: 80%;
+		}
+		.certificate-slot {
+			width: 90%;
 		}
 	}
 </style>

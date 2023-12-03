@@ -25,7 +25,7 @@ const projects = (await getCollection('work')).sort(
 				tagline="See my recent projects and past experience below"
 				align="start"
 			/>
-			<p> * Indicates very recent journeys that just began in this last few months</p>
+			<p id="disclaimer"> * Indicates very recent journeys that just began in this last few months</p>
 			<!-- <ExperienceSercher /> -->
 			<Grid variant="offset">
 				{
@@ -40,3 +40,9 @@ const projects = (await getCollection('work')).sort(
 		<ContactCTA />
 	</div>
 </BaseLayout>
+
+<style>
+	#disclaimer {
+		color: var(--accent-regular);
+	}
+</style>

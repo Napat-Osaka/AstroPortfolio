@@ -8,7 +8,6 @@ description: |
 tags:
   - Computer Graphics
   - 3D Modeling
-  - Python
   - C++
 ---
 

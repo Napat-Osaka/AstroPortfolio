@@ -81,7 +81,9 @@ import Icon from './Icon.astro';
 			};
 
 			// Toggle the theme when a user clicks the button.
-			button.addEventListener('click', () => setTheme(!this.isDark()));
+			button.addEventListener('click', () => {
+				setTheme(!this.isDark());
+			});
 
 			// Initialize button state to reflect current theme.
 			setTheme(this.isDark());
@@ -92,4 +94,20 @@ import Icon from './Icon.astro';
 		}
 	}
 	customElements.define('theme-toggle', ThemeToggle);
+
+	document.addEventListener('astro:before-swap', () => {
+		if (document.documentElement.classList.contains('theme-dark')) {
+			window.localStorage.setItem("theme-transition", "dark");
+		} else {
+			window.localStorage.setItem("theme-transition", "light");
+		}
+		// console.log("Local storage before :", window.localStorage.getItem("theme-transition"));
+	});
+	document.addEventListener('astro:page-load', () => {
+		const passedTheme = window.localStorage.getItem("theme-transition")
+		// console.log("Local storage load :", passedTheme)
+		if (passedTheme === "dark") {
+			document.documentElement.classList.add("theme-dark");
+		}
+	});
 </script>
