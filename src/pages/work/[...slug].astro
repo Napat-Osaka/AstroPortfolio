@@ -54,7 +54,7 @@ const { Content } = await entry.render();
 				</div> -->
 				<div class="stack gap-10 content">
 					{entry.data.vid ? (		
-						<video poster="/assets/video/Loading.gif" preload="auto" controls autoplay loop muted>
+						<video poster="/assets/video/Loading.gif" controls autoplay loop muted playsinline>
 							<!-- for chrome, firefox, android and remaining friends -->
 							<source src={entry.data.vid + ".mp4"} type="video/mp4">
 							<!-- for safari or iOS or anything Apple -->

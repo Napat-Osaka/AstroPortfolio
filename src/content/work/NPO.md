@@ -10,7 +10,7 @@ tags:
   - Leadership
 ---
 
-Receiving a certificate from the Royal Thai Consulate-General, Osaka
+> Receiving a certificate from the Royal Thai Consulate-General
 
 ### A dream to serve
 

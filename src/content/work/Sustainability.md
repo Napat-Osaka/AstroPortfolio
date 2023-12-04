@@ -10,7 +10,9 @@ tags:
   - Business
 ---
 
-My team of 4 nationalities received the best sustainability business pitch award, NUS Green Hackathon (a student-held hackathon)
+> My team of 4 nationalities receiving the best sustainability business pitch award
+
+\* At NUS Green Hackathon, a student-held hackathon
 
 ### Advancing Sustainability through Research
 

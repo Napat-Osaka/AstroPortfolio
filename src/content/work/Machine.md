@@ -10,7 +10,9 @@ tags:
   - Mechanical Engineering
 ---
 
-During my time at Akashi Kosen (Japanese for College of Technology), I found immense value in the hands-on approach to engineering, which later complements the theoretical knowledge I acquired at the university. I believe this dual educational experience has equipped me with a more comprehensive understanding of problem-solving, enabling me to approach problems with a more complete perspective and grow as an engineer.
+> Dual Experience of both Kosen and University
+
+\* Kosen is College of Technology in Japanese
 
 ### Traditional tools
 As a mandatory part of the Kosen curriculum, I have gained practical experience with traditional factory machines like lathes, drill mills, and welding guns. These experiences have provided invaluable insights into product design, metal processing, and the organization of production steps, all acquired through hands-on learning.

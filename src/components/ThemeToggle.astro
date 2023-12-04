@@ -103,9 +103,9 @@ import Icon from './Icon.astro';
 		}
 		// console.log("Local storage before :", window.localStorage.getItem("theme-transition"));
 	});
-	document.addEventListener('astro:page-load', () => {
+	document.addEventListener('astro:after-swap', () => {
 		const passedTheme = window.localStorage.getItem("theme-transition")
-		// console.log("Local storage load :", passedTheme)
+
 		if (passedTheme === "dark") {
 			document.documentElement.classList.add("theme-dark");
 		}

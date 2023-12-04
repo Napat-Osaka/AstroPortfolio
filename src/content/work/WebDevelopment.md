@@ -9,8 +9,10 @@ tags:
   - Self-Learning
 ---
 
+> Forever Learning, Forever Forward !
+
 ### World Wide Web
-In my quest to unravel the intricacies of the digital landscape and harness its transformative potential, I've embarked on a journey to learn the art of website and application development. With a background in Mechanical Engineering, I've gone over the familiar boundaries of my field by immersing myself in online education platforms. This determination has led me through over 10 online courses, spanning the realms of front-end and back-end development, and exploring the integration of cloud technologies into contemporary business paradigms. While my hands-on experience is still in its infancy, I believe I have been equipped with a strong foundation. In fact, this newfound skill of mine manifests in the creation of this very website—one of my very first foray into practical application.
+In my quest to unravel the intricacies of the digital landscape and harness its transformative potential, I've embarked on a journey to learn the art of website and application development. With a background in Mechanical Engineering, I've gone far over the familiar boundaries of my field by immersing myself in online education platforms. This determination has led me through over 10 online courses, spanning the realms of front-end and back-end development, and exploring the integration of cloud technologies into contemporary business paradigms. While my hands-on experience is still in its infancy, I believe I have been equipped with a strong foundation. In fact, this newfound skill of mine manifests in the creation of this very website—one of my very first foray into practical application.
 
 ### Up in the Cloud
 The advent of cloud computing has revolutionized the landscape of technological possibilities. Even the smallest enterprises now wield access to potent resources offered by cloud providers, requiring minimal upfront investment and enabling seamless scalability. In the midst of the ongoing Internet of Things (IoT) revolution, the potential for engineers to weave wonders into our daily lives using this unparalleled resource is limitless.

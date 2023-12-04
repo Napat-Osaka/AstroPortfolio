@@ -11,7 +11,9 @@ tags:
   - Self-Learning
 ---
 
-Game of Life Simulation, Done with WebGPU
+> Game of Life Simulation, Done with WebGPU
+
+\* iOS don't like auto play tag ! start the video manually if you are on iOS
 
 ### Embarking on a Parallelized Odyssey
 Even in very high-end server environments, CPUs typically don't exceed 64 cores. This means that even with parallel computing across, let's say, 20 compute nodes, we'd have around 1,000 cores working concurrently. Now, compare this to a single modern high-end GPU boasting more than 10,000 cores. While this substantial numerical difference might suggest that GPUs outpace CPUs completely, the reality is nuanced—it's not always the case. GPUs shine in specific types of calculations, and coincidentally, my work in both fluid simulation and visualization falls within this category.

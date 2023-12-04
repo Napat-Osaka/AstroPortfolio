@@ -11,6 +11,8 @@ tags:
   - C++
 ---
 
+> Ray-Traced Visualization of a granular simulation, showing very high level of realism
+
 ### In Pursuit of Beauty
 In the chaos of non-linearity, there lies a beauty cold and serene. I am amazed at how in this field even simple equations can birth mesmerizing and unpredictable behavior. On the contrary, I am captivated by the idea that even in the midst of chaotic flows, patterns emerge, resilient and unchanging. Charmed by the beauty and complexity of fluid dynamics, I joined a research group focused on fluid simulation, aspiring to deepen my comprehension of this captivating field and, one day, emulate its inherent beauty through my own hand.
 
