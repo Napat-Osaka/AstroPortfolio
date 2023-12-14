@@ -44,3 +44,9 @@ Moreover, while we are still working on UI to make the system more user-friendly
   Side by side comparison of the result of our Ray Tracing tool (Left) and traditional tool (Right). 
   Simulation data from 阪口智律, Osaka University Goto Lab (2023).
 </div>
+
+![alt text](/assets/RayTrace-5.jpg)
+<div align="center">
+  Numerical simulation results of droplet splitting in turbulent flow, visualized using our Ray Tracing tool.
+  Simulation data from 中野元大, Osaka University Goto Lab (2024).
+</div>
