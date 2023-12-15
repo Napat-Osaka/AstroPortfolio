@@ -54,12 +54,19 @@ const { Content } = await entry.render();
 				</div> -->
 				<div class="stack gap-10 content">
 					{entry.data.vid ? (		
-						<video poster="/assets/video/Loading.gif" controls autoplay loop muted playsinline>
-							<!-- for chrome, firefox, android and remaining friends -->
-							<source src={entry.data.vid + ".mp4"} type="video/mp4">
-							<!-- for safari or iOS or anything Apple -->
-							<source src={entry.data.vid + ".m4v"} type="video/x-m4v">
-							Your browser does not support the video tag.
+						// <video poster="/assets/video/Loading.gif" controls autoplay loop muted playsinline>
+
+							<video
+								poster="/assets/video/Loading.gif"
+								controls
+								loop
+								muted
+								playsinline
+								autoplay
+								// id="myVideo"
+							>
+							<source src={entry.data.vid + ".webm"} type="video/webm">
+							Opps. Something went wrong with my video.
 						</video>
 						) : (
 						entry.data.img && (
@@ -75,6 +82,14 @@ const { Content } = await entry.render();
 		<ContactCTA />
 	</div>
 </BaseLayout>
+
+<script>
+	// function myAutoPlayFunc() {
+	// 	const video = document.querySelector('video');
+  	// 	video.play();
+	// }
+	// document.getElementById("myVideo").onloadeddata = function() {myAutoPlayFunc()};
+</script>
 
 <style>
 	header {
