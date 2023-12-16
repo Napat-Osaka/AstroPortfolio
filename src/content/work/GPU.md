@@ -2,7 +2,7 @@
 title: GPU Accelerated *
 publishDate: 2019-10-02 00:00:00
 img: /assets/Gpu.png
-vid: /assets/video/gpu
+vid: https://www.youtube.com/embed/hYgrwzOx4_A?playlist=hYgrwzOx4_A&
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
     GPU acceleration has great benefit in both fluid simulation and obviously CGI. 

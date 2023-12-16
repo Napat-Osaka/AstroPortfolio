@@ -46,24 +46,14 @@ const { Content } = await entry.render();
 				</div>
 			</header>
 			<main class="wrapper">
-				<!-- <div class="stack gap-10 content">
-					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
-					<div class="content">
-						<Content />
-					</div>
-				</div> -->
 				<div class="stack gap-10 content">
 					{entry.data.vid ? (		
-						<video
-							poster="/assets/video/Loading.gif"
-							controls
-							loop
-							muted
-							autoplay
-						>
-							<source src={entry.data.vid + ".webm"} type="video/webm">
-							Opps. Something went wrong with my video.
-						</video>
+						<div style="text-align: center;">
+							<iframe width="600" height="400"
+								src={entry.data.vid + "autoplay=1&mute=1&loop=1"}
+								allowfullscreen>
+							</iframe>
+						</div>
 						) : (
 						entry.data.img && (
 							<img src={entry.data.img} alt={entry.data.img_alt || ''} />
@@ -88,6 +78,7 @@ const { Content } = await entry.render();
 </script>
 
 <style>
+	iframe { border: none; }
 	header {
 		padding-bottom: 2.5rem;
 		border-bottom: 1px solid var(--gray-800);

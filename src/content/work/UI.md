@@ -2,7 +2,7 @@
 title: GUI Development
 publishDate: 2019-10-02 00:00:00
 img: /assets/UI.jpg
-vid: /assets/video/ui
+vid: https://www.youtube.com/embed/OhWEuUMjIzs?playlist=OhWEuUMjIzs&
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
   Based on OpenGL and its rich supporting assets, we are building a GUI system for our in-house flow simulation visualizer.

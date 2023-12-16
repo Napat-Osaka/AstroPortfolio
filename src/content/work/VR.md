@@ -2,7 +2,7 @@
 title: VR Development *
 publishDate: 2019-10-02 00:00:00
 img: /assets/VR-1.jpg
-vid: /assets/video/VR
+vid: https://www.youtube.com/embed/3iC6PEnzxYY?playlist=3iC6PEnzxYY&
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
   The next step in my persue of ever more immersive scientific visualization.

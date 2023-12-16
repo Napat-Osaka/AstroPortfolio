@@ -2,7 +2,7 @@
 title: Fluid Simulation
 publishDate: 2020-03-02 00:00:00
 img: /assets/Fluid-1.png
-vid: /assets/video/simulation
+vid: https://www.youtube.com/embed/GnIiQdb51ic?playlist=GnIiQdb51ic&
 img_alt: Fluid Simulation with LBM Method
 description: |
   Flow and Temperature Simulation, Based on the Immersed Boundary Lattice Bolzman Method (IB-LBM). 

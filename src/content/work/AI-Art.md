@@ -2,7 +2,7 @@
 title: AI Art *
 publishDate: 2019-12-01 00:00:00
 img: /assets/AI-1.jpg
-vid: /assets/video/AI
+vid: https://www.youtube.com/embed/qaJz9lQYbUE?playlist=qaJz9lQYbUE&
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
   I have worked for a university research unit with strong focus on AI-generated arts. 
