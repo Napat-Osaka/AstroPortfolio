@@ -13,8 +13,6 @@ tags:
 
 > OpenGL based software made to act as user-friendly UI, supporting my original Ray Tracer
 
-\* iOS don't like auto play tag ! start the video manually if you are on iOS
-
 ### Good Old Trusty OpenGL
 Ray Tracing, while renowned for its exceptional visual results, comes with a significant drawback—its speed, or rather lack thereof, compared to the much swifter Rasterization method. Waiting up to 15 minutes for the final visualization is usually acceptable, but the prolonged wait during adjustments is far from optimal. To address this, our supporting software, designed as a user-friendly GUI for fine-tuning visualization parameters before feeding them to the Ray Tracing System, is built upon the foundation of OpenGL.
 Recognized as the standard library of Rasterization for decades, OpenGL is our go-to choice for its impressive speed and comprehensive toolset. By adopting OpenGL, we aim to expedite the adjustment process, providing users with a more responsive experience. The library's wealth of supporting tools also promises to streamline our workflow and enhance the overall user experience.
